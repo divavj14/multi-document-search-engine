@@ -1,0 +1,469 @@
+Setting Up Your Environment for Test.
+Before Downloading the Smart Browser
+1. Ensure you are using a WiFi connection and not a mobile hotspot.
+2. Mandatory prerequisites:
+•
+
+What is the operating system on the computer you are using
+(MacOS, Linux, or Windows)?
+
+•
+
+What is the version of your operating system?
+
+•
+
+For Mac users only:
+
+•
+
+o
+
+What processor does your Mac computer have: the Intel
+processor or the Apple Silicon processor?
+
+o
+
+For information on how to figure out what processor your
+Mac has, see this.
+
+Update webcam drivers.
+
+3. Ensure that your system is compatible. Here are the system
+compatibility details:
+•
+
+Windows 10 and 11
+
+•
+
+Linux Ubuntu 20.04 and Ubuntu 22.04
+
+•
+
+Mac 13.5 Ventura and above
+
+4. You cannot download Smart Browser if you are:
+•
+
+Working with a firewall enabled
+
+•
+
+Using a VPN
+
+5. Close all applications, including those running in the background
+(for example, WhatsApp, Chrome), and desktop widgets such as
+Clock and Calendar, to be able to proceed with the assessment.
+
+Phase 1: Downloading And Installing Secure Broser
+Step 1 : Click here to Download this software.
+
+Step 2 : Select the installer file according to your environment.
+
+Step 3: If you are using a virtual camera, you will see this error. Please
+ensure you are using either your laptop's built-in camera or a wired
+webcam to proceed.
+
+"Click 'Continue' to test all remaining requirements and finish the process."
+
+Step 4: Open Application Check
+
+Remember to close all other application instead of Smart Browser
+
+After completing all the steps your screen looks like this.
+
+Make sure your follow all the given instructions to process you test further.
+
+After Downloading the Smart Browser
+1. You cannot do the following while using Smart Browser:
+•
+
+Share your screen
+
+•
+
+Take screenshots of the test window
+
+•
+
+Record the test window
+
+•
+
+Keep any applications open (Chrome, WhatsApp - even if
+running in the background, etc.)
+
+•
+
+Resize the test window
+
+•
+
+Use multiple monitors
+
+2. Key Combinations that are Absolutely Forbidden While Using
+Smart Browser
+Operating Forbidden Key Combinations
+System
+All
+
+Alt + Tab, Ctrl + Alt + Delete, OS superkeys and combos
+involving these keys, print screen and any combination
+involving this key, Ctrl + Shift + Esc, Alt + Esc, Ctrl + Alt + Shift,
+etc.
+
+Mac
+
+Command + H, Command + Option + H, Shift + Command (⌘)
++ 3, Shift + Command (⌘) + 4, Shift + Command (⌘) + 5,
+Control + Arrow (Up/Down), Command + Tab, Command + M,
+Command + Option + Esc, Command + Space, Command +
+Option + D, Control + Up Arrow, Control + Down Arrow,
+Command + ` (Backtick), Control + Command + F, Command +
+Shift + Option + Esc, Command + Shift + G, Command + Shift +
+N
+
+Ubuntu
+
+Ctrl + Alt + Shift + R, Ctrl + Alt + Arrow Key, Ctrl + Alt + Tab, Alt +
+Backtick (`), Ctrl + Alt + T, Ctrl + Alt + L, Ctrl + Shift + N
+
+Phase 2: Advanced Proctoring Settings – Smart Browser
+Smart Browser is a secure desktop application designed to conduct a fair, secure
+assessment.
+HackerEarth’s Smart Browser is a secure desktop application designed to help you
+conduct tests with enhanced proctoring. It offers stricter controls compared to
+standard browser-based tests, ensuring a more reliable and cheat-resistant testing
+experience.
+By using Smart Browser, you can be more confident that candidates are completing
+assessments in a controlled and secure environment.
+Smart Browser preview does not work for unpublished tests. You need to publish the
+test to preview it in the Smart Browser.
+Supported Operating Systems
+Smart Browser is supported by the following Operating Systems (OS):
+OS
+
+Versions
+
+Windows
+
+10, 11
+
+Linux
+
+Ubuntu 22.04, Ubuntu 20.04
+
+4macOS
+
+13.5 Ventura and above
+
+Enable Smart Browser in settings
+Admins can enable Smart Browser from the proctoring settings while creating or editing
+a test. Once enabled, candidates will be required to attempt the test using Smart
+Browser only.
+How Smart Browser helps prevent cheating?
+Smart Browser uses multiple security checks before and during the test to ensure
+fairness and integrity.
+Security measures before the test
+Before the test begins, Smart Browser verifies the candidate’s system setup and
+ensures that all security requirements are met. Candidates must launch the test
+exclusively through the Smart Browser application.
+Smart Browser performs a complete system check to:
+•
+
+Detect whether the system is running in a virtual environment
+
+•
+
+Ensure all display requirements are met
+
+•
+
+Verify that the required domains are accessible
+
+•
+
+Check for any open applications
+
+If restricted applications are detected, you can choose to close them manually or allow
+Smart Browser to close them automatically.
+
+Security measures during the test
+Once the test starts, Smart Browser actively restricts actions that could compromise
+test integrity. It prevents candidates from:
+1. Sharing or recording the test window
+2. Taking screenshots of the test
+3. Opening or switching to other applications
+4. Resizing the test window
+5. Using multiple monitors
+6. Running the test inside a virtual machine
+7. Accessing browser developer tools
+
+Any attempt by a candidate to move away from the test screen, such as switching
+workspaces, exiting full-screen mode, or opening another application in the
+background, will trigger a warning.
+Candidates cannot open external links and applications while taking an assessment in
+the Smart Browser. Question types like Machine Learning and File upload that require
+candidates to use a separate application to solve should not be used for assessments
+in the Smart Browser.
+
+If the candidate does not return to the test within 10 seconds after the initial warning,
+they will be automatically removed from the test.
+Restricted keyboard actions
+To maintain focus and prevent misuse, the following key combinations are disabled:
+•
+
+Function keys and related combinations (for example, F1, Alt + F5)
+
+•
+
+Alt + Tab
+
+•
+
+Ctrl + Alt + Delete
+
+•
+
+Ctrl + C and Ctrl + V
+
+•
+
+Operating system shortcut keys (such as Windows key, Mac Command key,
+and combinations like Windows key + C)
+
+Additional controls
+•
+
+Operating system notifications are blocked
+
+•
+
+Screen recording and screen-sharing tools are disabled
+
+After the test
+After the test is completed, Smart Browser safely exits the secure mode and restores
+normal system access.
+You can additionally choose to receive the following test reports via email:
+•
+
+Email report: Choose to email the assessment summary report to all Test
+Admins.
+
+•
+
+Plagiarism report: Receive a detailed plagiarism report after the test is
+completed.
+
+•
+
+Detailed assessment report: Include the detailed assessment report (PDF)
+along with the summary report.
+
+Candidate journey using Smart Browser
+The candidate experience with Smart Browser is simple and guided:
+
+You can find more information about the candidate journey in this article.
+
+Phase 3: Smart Browser Overview & Documentation
+Supported operating systems for Smart Browser
+Smart Browser is supported by the following Operating Systems (OS):
+OS
+
+Versions
+
+Windows
+
+10, 11
+
+Linux
+
+Ubuntu 22.04, Ubuntu 20.04, Ubuntu 24.04
+
+MacOS
+
+13.5 Ventura and above. Compatible with Intelbased Macs.
+
+Test invite and setup
+1. The test invite email includes a link to start your HackerEarth test.
+2. Download and install the Smart Browser based on your operating
+system - choose Download for Apple Silicon or Download for
+Intel for Mac. If your OS is not shown on screen, click 'Download
+from here', then select your OS from the dropdown and
+click 'Download'.
+
+a. Open the Smart Browser - it will display a welcome screen
+prompting you to begin your session.
+b. Go back to the browser window or email where you launched
+the app and click the 'Start' button.
+c. Alternatively, you can manually enter your test or interview link
+by clicking 'here' in the Smart Browser.After the download and
+installation are complete, you can do the following.
+
+If you have Smart Browser version 1.0.6 or older, uninstall it and reinstall
+the latest version using the link in your invitation email.
+Before the test
+1. After installation, open the Smart Browser.
+2. A quick system check is performed. And if everything goes well, you’ll
+see a pop-up to enter the test URL.
+
+3. Before starting the test, Smart Browser will prompt you to close all
+background applications. You can either close them manually or
+choose the option to close all apps automatically.
+
+Note: Some apps may not close even after selecting Try Closing
+Automatically. In those cases, you need to close them manually.
+During the test
+1. Once the test begins, your screen is constantly monitored.
+2. Any attempt to move away from the test screen (like switching
+workspaces or exiting full screen) or opening another application in
+the background will trigger a warning.
+Note: You will be removed from the test if you don’t return to the test within
+10 seconds after an initial warning.
+
+3. Do not try to record the screen or capture screenshots while
+attempting the test.
+4. Once you complete the test, the Smart Browser will automatically
+close itself.
+Important notes
+1. If you're using a social login to access the test, make sure to select
+the correct account. You won't be able to go back to the previous
+
+screen. To restart the process, you'll need to relaunch the Smart
+Browser.
+2. If you're disconnected from the test due to a technical issue, you can
+resume the test by either:
+a. Logging in again through the test invite email, or
+b. Relaunching the Smart Browser application directly.
+3. Avoid using any external tools such as Interview Coder or other
+platforms that provide outside assistance.
+4. Do not use multiple monitors while attempting the test. Close any
+virtual machine running on your system, as it is not allowed while
+attempting the test.
+5. We strongly recommend using a stable and reliable internet
+connection. Avoid mobile hotspots or tethered networks, as they
+may cause interruptions.
+6. For questions (Full-stack) where a preview or external link needs to
+be opened, it will be opened in a floating window that can be closed
+and resized.
+
+Phase 4: Troubleshooting Guide (including Snapshot Disabled
+Assessments)
+1. Firewall Issues
+Candidates may encounter a firewall error due to the following reasons:
+•
+
+The machine is connected to a VPN.
+
+•
+
+Google APIs or HackerEarth domains are being blocked by the
+network.
+
+•
+
+Candidates should try using a personal laptop instead of an official
+one.
+
+•
+
+Alternatively, switching to a different network may resolve the issue.
+
+To turn off firewall follow these steps
+Step 1: press win+ r to open run and type control to open control panel.
+
+Step 2: Change view by category to Large Icons on top right of your control
+panel window.
+
+Then click on Windows Defender Firewall
+
+Click on Windows Defender Firewall on or off
+
+then click on both marked options to turn of the window firewall.
+
+2. 403 Access Denied Issue
+Candidates may see a "403 Access Denied" error when attempting to
+access the page. This can occur due to incorrect login credentials.
+•
+
+Verify that the login information is correct (email and password).
+
+•
+
+If the issue persists, candidates should clear their browser history
+and cache or try accessing the page in incognito mode.
+
+3. Test Loading Issues / Blank Screen / IDE Not Loading
+Sometimes, candidates may face loading issues, such as a blank screen or
+an IDE not loading properly. These issues are often caused by unstable
+internet connectivity.
+•
+
+Candidates should try pressing Ctrl + Shift + R (Hard Reload) to
+reload all resources from the webpage.
+
+•
+
+We recommend switching to a more stable network to resolve the
+issue.
+
+4. Tab Switches
+Clicking on any notification or tab during the test can trigger a tab switch,
+which may affect the test flow.
+•
+
+Candidates are requested to disable notifications before attempting
+the test to prevent any interruptions or tab switches.
+
+5. Supported Browsers
+HackerEarth Assessment supports the following browsers (up to the last 2
+versions):
+•
+
+Mozilla Firefox
+
+•
+
+Google Chrome
+
+•
+
+Edge
+
+•
+
+Safari
+
+Ensure that the candidate is using a supported browser and is on the latest
+version for optimal performance. Also, candidates will need to disable the
+browser extensions for smooth test experience.
+6. Operating System (OS) Compatibility
+HackerEarth Assessments supports the following Operating Systems:
+•
+
+Windows: 10, 11
+
+•
+
+MacOS: 13.5 Ventura
+
+•
+
+Linux: Ubuntu 22.04, Ubuntu 20.04
+
+7. Microphone Access Issues
+Microphone access is required while attempting a test on HackerEarth.
+•
+
+Ensure microphone access is enabled from the browser settings.
+
+•
+
+Alternatively, enable it from the left icon on the address bar (in Edge
+and Chrome).
+
+Candidates can refer to a video for a better understanding of how to enable
+microphone access.
+
+

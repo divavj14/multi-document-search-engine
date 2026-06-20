@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Document Search Engine</title>
+<style>
+    * {
+        box-sizing: border-box;
+        font-family: -apple-system, Segoe UI, Roboto, sans-serif;
+    }
+
+    body {
+        background: #f4f4f2;
+        margin: 0;
+        padding: 40px 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .container {
+        width: 100%;
+        max-width: 600px;
+    }
+
+    h1 {
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 4px;
+    }
+
+    .stats-line {
+        font-size: 13px;
+        color: #777;
+        margin-bottom: 20px;
+    }
+
+    /* WHY position: relative on this wrapper:
+       the autocomplete dropdown below needs to be positioned
+       ABSOLUTELY relative to this box, not relative to the
+       whole page — otherwise it would jump to the top-left
+       corner of the entire document instead of sitting directly
+       under the search input. */
+    .search-wrapper {
+        position: relative;
+        margin-bottom: 8px;
+    }
+
+    #search-input {
+        width: 100%;
+        padding: 12px 14px;
+        font-size: 15px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        outline: none;
+    }
+
+    #search-input:focus {
+        border-color: #555;
+    }
+
+    #autocomplete-dropdown {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: white;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        margin-top: 4px;
+        overflow: hidden;
+        z-index: 10;
+        display: none;  /* hidden by default, shown via JS when there are suggestions */
+    }
+
+    .suggestion-item {
+        padding: 10px 14px;
+        font-size: 14px;
+        cursor: pointer;
+        border-bottom: 1px solid #eee;
+    }
+
+    .suggestion-item:last-child {
+        border-bottom: none;
+    }
+
+    .suggestion-item:hover {
+        background: #f0f0f0;
+    }
+
+    .results-meta {
+        font-size: 13px;
+        color: #777;
+        margin: 16px 0 10px;
+        min-height: 18px;
+    }
+
+    .result-card {
+        border: 1px solid #e0e0e0;
+        border-radius: 8px;
+        padding: 12px 14px;
+        margin-bottom: 8px;
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+
+    .result-filename {
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    .result-score {
+        font-size: 12px;
+        color: #999;
+    }
+</style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Document search</h1>
+    <div class="stats-line" id="stats-line">Loading index stats...</div>
+
+    <div class="search-wrapper">
+        <input type="text" id="search-input" placeholder="Search documents..." autocomplete="off">
+        <div id="autocomplete-dropdown"></div>
+    </div>
+
+    <div class="results-meta" id="results-meta"></div>
+    <div id="results-container"></div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
